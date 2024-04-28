@@ -4,7 +4,7 @@ import MenuSelectionComponent from "../planning/pages/menu-selection.component.v
 
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('#'),
     routes: [
         { path: '/restaurants',    component: RestaurantSelectionComponent},
         { path: '/restaurants/:id/menus',   component: MenuSelectionComponent},
